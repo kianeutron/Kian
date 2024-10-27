@@ -1,0 +1,680 @@
+@media screen and (min-width:1024px) {
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+nav {
+    background-color: rgb(1, 21, 57);
+    display: flex;
+    justify-content: center;
+    line-height: 80px;
+    height: 80px;
+   
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+li {
+    margin: 0 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+li:hover {
+    background-color: #0073bf;
+    color: white;
+}
+.unilogoo{
+    width: 280px;
+    height: 60px;
+    background-image: url(../img/unimainlogo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+.signnn{
+    width: 130px;
+    height: 50px;
+    background-color: #006fb9;
+    color: white;
+    position: absolute;
+    top: 15px;
+    right: 80px;
+    border-radius: 40px;
+    border: transparent;
+    font-size: 16px;
+    cursor: pointer;
+}
+.signnn:hover{
+    background-color: #ffffff;
+    color: rgb(1, 94, 255);
+    
+}
+.user{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/user.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 15px;
+    right: 230px;
+}
+.signinbox{
+    width: 1200px;
+    height: 640px;
+    background-color: rgb(0, 38, 121);
+    position: absolute;
+    top: 450px;
+    left: 700px;
+    transform: translate(-50% , -50%);
+    border-radius: 10px;
+}
+.signinimg{
+    width: 650px;
+    height: 640px;
+    background-image: url(../img/signinimg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+   
+}
+.bluebox{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 38, 121);
+    position: absolute;
+    top: 300px;
+    left: 580px;
+    border-radius: 50%;
+}
+.text1signbox{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 30px;
+    left: 790px;
+}
+.text2signbox{
+    color: white;
+    font-size: 23px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 120px;
+    left: 700px;
+}
+.fullname{
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 170px;
+    left: 700px;
+    border-radius: 10px;
+}
+.text3signbox{
+    color: white;
+    font-size: 23px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 250px;
+    left: 700px;
+}
+.email{
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 300px;
+    left: 700px;
+    border-radius: 10px;
+}
+.text4signbox{
+    color: white;
+    font-size: 23px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 380px;
+    left: 700px;
+}
+.pass{
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 430px;
+    left: 700px;
+    border-radius: 10px;
+}
+.last{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 540px;
+    left: 830px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    color: #0073bf;
+    font-size: 18px;
+    cursor: pointer;
+}
+.last:hover{
+    background-color: #e2e2e2;
+}
+.lasttext1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    position: absolute;
+    top: 600px;
+    left: 750px;
+}
+.lasttext2{
+    color: rgb(0, 191, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    position: absolute;
+    top: 600px;
+    left: 907px;
+}
+.innerbox{
+    width: 300px;
+    height: 90px;
+    position: absolute;
+    top: 0px;
+    left: 780px;
+    background-color: #006fb9;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+}
+
+
+
+
+
+
+
+
+/* Mobile Version */
+
+
+
+
+
+@media screen and (max-width:767px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+    nav {
+        background-color: rgb(1, 21, 57);
+        display: flex;
+        justify-content: center;
+        line-height: 80px;
+        height: 80px;
+       
+    }
+    
+    ul {
+        list-style: none;
+        display: flex;
+        
+    }
+    
+    li {
+        margin: 0 15px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: none;
+        
+        
+    }
+    a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    
+    li:hover {
+        background-color: #0073bf;
+        color: white;
+    }
+    .unilogoo{
+        width: 160px;
+        height: 30px;
+        background-image: url(../img/unimainlogo.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 20px;
+        left: 50px;
+    }
+    .signnn{
+        width: 100px;
+        height: 40px;
+        background-color: #006fb9;
+        color: white;
+        position: absolute;
+        top: 20px;
+        right: 60px;
+        border-radius: 40px;
+        border: transparent;
+        font-size: 13px;
+        cursor: pointer;
+
+    }
+    .sign:hover{
+        background-color: #ffffff;
+        color: rgb(1, 94, 255);
+        
+    }
+    .user{
+        width: 40px;
+        height: 40px;
+        background-image: url(../img/user.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 20px;
+        right: 180px;
+    }
+    .signinbox{
+        width: 98%;
+        height: 500px;
+        background-color: rgb(0, 38, 121);
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translate(-50%);
+        
+        border-radius: 10px;
+        
+       
+    }
+    .signinimg{
+        width: 250px;
+        height: 500px;
+        background-image: url(../img/signinimg2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+       
+    }
+    .bluebox{
+        width: 150px;
+        height: 150px;
+        background-color: rgb(0, 38, 121);
+        position: absolute;
+        top: 300px;
+        left: 580px;
+        border-radius: 50%;
+        display: none;
+    }
+    .text1signbox{
+        color: white;
+        font-size: 17px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        top: 30px;
+        left: 270px;
+    }
+    .text2signbox{
+        color: white;
+        font-size: 17px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        top: 60px;
+        left: 320px;
+    }
+    .fullname{
+        width: 140px;
+        height: 30px;
+        position: absolute;
+        top: 90px;
+        left: 290px;
+        border-radius: 6px;
+    }
+    .text3signbox{
+        color: white;
+        font-size: 17px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        top: 150px;
+        left: 310px;
+    }
+    .email{
+        width: 140px;
+        height: 30px;
+        position: absolute;
+        top: 180px;
+        left: 290px;
+        border-radius: 6px;
+    }
+    .text4signbox{
+        color: white;
+        font-size: 17px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        top: 240px;
+        left: 320px;
+    }
+    .pass{
+        width: 140px;
+        height: 30px;
+        position: absolute;
+        top: 270px;
+        left: 290px;
+        border-radius: 6px;
+    }
+    .last{
+        width: 130px;
+        height: 40px;
+        position: absolute;
+        top: 350px;
+        left: 310px;
+        border-radius: 15px;
+        background-color: #ffffff;
+        color: #0073bf;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .last:hover{
+        background-color: #e2e2e2;
+    }
+    .lasttext1{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        position: absolute;
+        top: 600px;
+        left: 750px;
+        display: none;
+    }
+    .lasttext2{
+        color: rgb(0, 191, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        position: absolute;
+        top: 600px;
+        left: 907px;
+        display: none;
+    }
+    .innerbox{
+        width: 300px;
+        height: 90px;
+        position: absolute;
+        top: 0px;
+        left: 780px;
+        background-color: #006fb9;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        display: none;
+    }
+    }
+
+
+
+
+
+
+/* Tablet Version*/
+
+
+
+
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+    nav {
+        background-color: rgb(1, 21, 57);
+        display: flex;
+        justify-content: center;
+        line-height: 80px;
+        height: 80px;
+       
+    }
+    
+    ul {
+        list-style: none;
+        display: flex;
+        
+    }
+    
+    li {
+        margin: 0 -5px;
+        position: relative;
+        left: 50px;
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        
+    }
+    a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding: 10px 20px 30px;
+        border-radius: 5px;
+        
+    }
+    
+    li:hover {
+        background-color: #0073bf;
+        color: white;
+    }
+    .unilogoo{
+        width: 180px;
+        height: 40px;
+        background-image: url(../img/unimainlogo.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 20px;
+        left: 30px;
+    }
+    .signnn{
+        width: 100px;
+        height: 40px;
+        background-color: #006fb9;
+        color: white;
+        position: absolute;
+        top: 20px;
+        right: 40px;
+        border-radius: 40px;
+        border: transparent;
+        font-size: 13px;
+        cursor: pointer;
+    }
+    .sign:hover{
+        background-color: #ffffff;
+        color: rgb(1, 94, 255);
+        
+    }
+    .user{
+        width: 45px;
+        height: 45px;
+        background-image: url(../img/user.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 20px;
+        right: 160px;
+        display: none;
+    }
+    .signinbox{
+        width: 1137px;
+        height: 640px;
+        background-color: rgb(0, 38, 121);
+        position: absolute;
+        top: 450px;
+        left: 400px;
+        transform: translate(-50% , -50%);
+        border-radius: 10px;
+    }
+    .signinimg{
+        width: 460px;
+        height: 640px;
+        background-image: url(../img/signinimg2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+        position: absolute;
+        left: 160px;
+       
+    }
+    .bluebox{
+        width: 150px;
+        height: 150px;
+        background-color: rgb(0, 38, 121);
+        position: absolute;
+        top: 300px;
+        left: 580px;
+        border-radius: 50%;
+    }
+    .text1signbox{
+        color: white;
+        font-size: 25px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        top: 30px;
+        left: 790px;
+    }
+    .text2signbox{
+        color: white;
+        font-size: 23px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        top: 120px;
+        left: 700px;
+    }
+    .fullname{
+        width: 300px;
+        height: 50px;
+        position: absolute;
+        top: 170px;
+        left: 700px;
+        border-radius: 10px;
+    }
+    .text3signbox{
+        color: white;
+        font-size: 23px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        top: 250px;
+        left: 700px;
+    }
+    .email{
+        width: 300px;
+        height: 50px;
+        position: absolute;
+        top: 300px;
+        left: 700px;
+        border-radius: 10px;
+    }
+    .text4signbox{
+        color: white;
+        font-size: 23px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        top: 380px;
+        left: 700px;
+    }
+    .pass{
+        width: 300px;
+        height: 50px;
+        position: absolute;
+        top: 430px;
+        left: 700px;
+        border-radius: 10px;
+    }
+    .last{
+        width: 200px;
+        height: 50px;
+        position: absolute;
+        top: 540px;
+        left: 830px;
+        border-radius: 15px;
+        background-color: #ffffff;
+        color: #0073bf;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .last:hover{
+        background-color: #e2e2e2;
+    }
+    .lasttext1{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        position: absolute;
+        top: 600px;
+        left: 750px;
+    }
+    .lasttext2{
+        color: rgb(0, 191, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        position: absolute;
+        top: 600px;
+        left: 907px;
+    }
+    .innerbox{
+        width: 300px;
+        height: 90px;
+        position: absolute;
+        top: 0px;
+        left: 780px;
+        background-color: #006fb9;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    }
+    
+    
