@@ -1,4 +1,0 @@
-Student name: Seyed Kian Khatibi
-Student number: 726925
-Student Class: IT1B
-GitHub repository: https://github.com/kianeutron/Kian-Khatibi-Webmarkup
